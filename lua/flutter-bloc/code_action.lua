@@ -197,7 +197,7 @@ function M.setup()
 	null_ls.register({
 		name = "flutter-bloc",
 		method = { require("null-ls").methods.CODE_ACTION },
-		filetypes = { "dart" },
+		filetypes = { "_all" },
 		generator = {
 			fn = function(_)
 				local out = {}
